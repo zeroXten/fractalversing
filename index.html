@@ -1,13 +1,338 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body>
-  <div class="container mx-auto px-4">
-    <h1>FractalVersing</h1>
-  </div>
-</body>
+  <head>
+    <title>UNMIND.today - Collaborative Calendar</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+  </head>
+
+  <body class="h-screen bg-stone-900">
+    <main class="container mx-auto max-w-4xl mt-10 px-5 flex items-center justify-center">
+
+
+      <div class="px-4 w-full border shadow-md sm:p-6 bg-stone-100 border-stone-100">
+        <h1 class="text-pink-500 text-9xl font-bold text-right">FRACTAL_VERSING</h1>
+        <p class="text-2xl text-stone-900 mt-5 text-justify">
+          FractalVersing is a way of creating little statements called "verses" related to a subject, that help you reflect on, understand, and interpret different situations or events. Use them to guide decision-making, problem-solving, brainstorming, or any other meditation on a subject.
+        </p>
+
+        <h2 class="text-pink-500 text-5xl mt-5">WHAT DOES THIS HAVE TO DO WITH FRACTALS?</h2>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          Before we answer this question, we must first take a look at ontologies. An ontology defines the relationship between concepts, or objects within a given subject. For example, two people might have a mother-daughter relationship. This is different to a taxonomy which categorises concepts into a hierarchical structure (e.g. woman-human-mammal).
+        </p>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        Traditional ontologies are typically very static, rigid, and transcendental. They provide a useful snapshot of understanding, from a certain perspective, but often miss out the always-changing and messy nature of reality. A fractal ontology however is based on this idea of dynamics and self-similarity at different scales, and so is well suited to help describe the relationships in complex systems. Philosophically they originate in some of the works of "post-modern" philosophers such as Gilles Deleuze.  For a really good read on fractal ontologies see https://www.3ammagazine.com/3am/introduction-fractal-ontology/. For more information about complex systems checkout the Cynefin framework and the great work of the Santa Fe Institute. 
+        </p>
+        
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        In short, FractalVersing is a way of constructing a fractal ontology in a way that is meant to be accessible and pragmatic.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        Note that FractalVersing has nothing to do with the "Fractalverse" series of books by Christopher Paolini, although they look pretty cool, so check them out too.
+        </p>
+
+        <h2 class="text-pink-500 text-5xl mt-5">HOW DOES FRACTAL_VERSING WORK?</h2>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          At the highest level, FractalVersing works by continuously cycling between two different actions within or across different subjects or situations; formation and interpretation.
+        </p>
+
+        <p class="text-2xl text-stone-900 mt-5 text-center">
+          FORMATION - INTERPRETATION
+        </p>
+        
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        Formation means creating or updating a fractal ontology, and interpretation means reflecting on a subject or situation with the help of the fractal ontology, but also reflecting on the fractal ontology in the context of the subject or situation.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        Formation is made up of 8 steps:
+        <ol class="text-lg list-decimal list-inside mt-5">
+          <li>Identify entities</li>
+          <li>Identify difference-dimensions</li>
+          <li>Identify boundaries, environment, constraints</li>
+          <li>Identify actions and verbs</li>
+          <li>Transform entities and nouns into verbs</li>
+          <li>Create a multi-scale verb hierarchy</li>
+          <li>Create interpretations</li>
+          <li>Compose Verses</li>
+        </ol>
+        </p>
+
+        <h2 class="text-pink-500 text-5xl mt-5">FORMATION</h2>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        In this section we'll walk through the process of forming and interpreting a FractalVersing ontology using an example.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          Creating or updating a FractalVersing ontology involves 8 steps, loosely followed in sequence. We say loosely because you'll probably jump up and down through the steps as you go. 
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          There is no correctness here. Two people creating a FractalVersing ontology for the same subject would likely create something different, and that's fine. In fact, that's fantastic. You could use both. Also, one person creating an ontology for a subject at two different points in time would likely create something quite different due to differences in their mood, mental state, recent thoughts and events.
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">BEFORE WE START</h3>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        Before we start, we need to anchor the ontology to something, a subject. For our example we're going to use the relationship between a "user" and a "mobile phone".
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">IDENTIFY ENTITIES</h3>
+        
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        The first thing we need to do is identify the things, the objects, the nouns etc. These are the things you might see in a traditional ontology. They may be physical things, or concepts.
+        </p>
+
+        <h4 class="text-stone-900 text-lg font-bold mt-5">Example</h4>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+        User, phone, apps, internet, phone call, text
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">IDENTIFY DIFFERENCE-DIMENSIONS</h3>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          The entities identified will have characteristics and properties that make them different to each other. You don't need to tie them to the relevant entity, just use the entities to guide your thinking.
+        </p>
+        <h4 class="text-stone-900 text-lg font-bold mt-5">Example</h4>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+          Busy, bored, curious, connected, battery level, information, download, share, inform, speed, response time, load time, value
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">IDENTIFY BOUNDARIES, ENVIRONMENT, CONSTRAINTS</h3>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          The entities don't exist in isolation, but are actually part of a wider system or environment in constant evolution, with the environment affecting change on the entities, and the entities changing the environment. There are also boundaries and constraints within and between the entities and environment.
+        </p>
+        <h4 class="text-stone-900 text-lg font-bold mt-5">Example</h4>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+          Network, battery level, size, convenience, speed, time, power, social connection
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">IDENTIFY ACTIONS AND VERBS</h3>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          Next identify the actions performed by the entities, either in general or on other identified entities. It is often helpful to think of opposites and include both, such as "download" and "upload". Use the boundaries, environment, and difference-dimensions to come up with actions and verbs as well.
+        </p>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          This step should give you quite a long list of verbs.
+        </p>
+        <h4 class="text-stone-900 text-lg font-bold mt-5">Example</h4>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+          Use, call, play, connect, call, send, message, entertain, frustrate, enlighten, inform, misinform, connect, separate, charge, consume, learn, change, download, upload, share, receive, load, waste, save, socialise, include, exclude, marginalise, enlargen, shrink
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">TRANSFORM ENTITIES AND NOUNS INTO VERBS</h3>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          Now we're going to do something a little strange. You've already found some actions and verbs, but we want to take it a step further. Because nothing is static, we want to convert the noun-nature of the entities to verbs, as a way of making them dynamic and temporal. There are some tricks we can use, and we don't have to worry about grammatical or semantic correctness. The same can apply to boundaries and difference-dimensions.
+        </p>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          One way to do this is to append -ing to a noun, often creating a recognized verb. For example, "text" becomes "texting", which is a very familiar term.
+        </p>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          We can use prefixes like en-, em-, be-, re-, de-, dis- to transform nouns. For example, "text" could become "entext", which would mean something like "to bring within text".
+        </p>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          Finally, another very powerful approach is to prefix a noun with "become-". These might read a little abstractly or philosophically, such as become-phone, so it's worth exploring this briefly. A phone just is, it exists, you can touch it, pick it up, use it, give it to someone etc. This is a very singular static view of a phone. However, we can think of the phone as having multiple identities. Sitting on the table without a battery, it is just an expensive brick. Charging it and picking it up allows it to become-phone. Giving a phone to someone allows it to become-gift. That isn't to say that it isn't still a phone, but a phone as a gift exists in a different dynamic context than a phone that isn't.
+        </p>
+        <h4 class="text-stone-900 text-lg font-bold mt-5">Example</h4>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+          become-user, become-phone, interneting, phoning, texting, busying, connecting, sharing, informing, become-fast, become-slow, become-shared, uninform, misinform, load, unload, value, devalue, revalue
+        </p>        
+
+
+        <h3 class="text-pink-500 text-2xl mt-5">CREATE A MULTI-SCALE VERB HIERARCHY</h3>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          So far we just have a list of nouns and constructed-nouns. One of the things that make complex systems and ecosystems interesting is that there are often self-similarities and relationships across different scales. For example, if you take something as obvious as organisational communications. People talk to each other as individuals such as over coffee, teams also communicate between each other such as through processes and documentation, and of course organisations as a whole communicate such as through marketing and PR.
+        </p>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          We are not trying to create a strict hierarchy here, but separating our verbs out across different levels of scales and abstraction can help ensure we're thinking about our ontology within and between these different levels.
+        </p>
+        <h4 class="text-stone-900 text-lg font-bold mt-5">Example</h4>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+          <ul class="text-lg list-inside">
+            <li>Level 1: becoming-user, becoming-phone, connect</li>
+            <li>Level 2: play, entertain, frustrate, enlighten, inform, uninform, misinform, consume, learn, change, waste, save, socialise, include, exclude, marginalise,value, devalue, revalue, busying</li>
+            <li>Level 3: call, send, message, charge, download, upload, load, enlargen, shrink, interneting, phoning, texting</li>
+            <li>Level 4: becoming-fast, becoming-slow, becoming-shared</li>
+          </ul>
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">CREATE INTERPRETATIONS</h3>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          This is the most important step. It's going to turn a list of verbs into something interesting and meaningful. It requires a bit of thought and creativity, so allow yourself to just write down what comes to mind - don't restrict yourself. You can always edit or throw things away later.
+        </p>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          You're going to select two verbs and interpret their relationship. You can select between two verbs at the same level, or between adjacent levels, or even levels at opposite ends.
+        </p>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        If you have a lot of verbs, then there will be a significant number of possible combinations. We don't need to create an interpretation between every single possible pair, just look for interesting pairings or even pick at random.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          Once you've got two verbs, think about what they mean to each other in the context of the FractalVersing ontology. Write this down as a sentence, but feel free to be creative with the structure. A short series of open-ended questions is just as valuable as a statement.
+        </p>
+
+        <h4 class="text-stone-900 text-lg font-bold mt-5">Example</h4>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+          <ul class="text-lg list-inside">
+            <li>becoming-user, connect: Becoming ourselves through becoming each other.</li>
+            <li>becoming-user, entertain:  A distraction, or well-deserved rest?</li>
+            <li>inform, socialise:  Informing a shared experience</li>
+            <li>consume, download: Are the limits of consumption physical, psychological, or social?</li>
+            <li>shrink, message: To share an idea, in the moment, requires a limit on words</li>
+            <li>charge, becoming-slow: A slow charge reduces utility, reduced utility slows less-charge</li>
+            <li>becoming-fast, becoming-shared: The more we communicate, the faster we communicate, the greater the distance between each other. </li>
+          </ul>
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">COMPOSE VERSES</h3>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          The final step is to edit the interpretations to be standalone Verses. You can anchor back to a verb if needed to provide the context.
+        </p>
+
+        <h4 class="text-stone-900 text-lg font-bold mt-5">Example</h4>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+          Mobile phone - User
+        </p>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+          <ul class="text-lg list-disc list-inside">
+            <li>When we connect, we become ourselves through becoming each other.</li>
+            <li>Entertaining, a distraction or well-deserved rest?</li>
+            <li>When we socialise, we inform a shared experience.</li>
+            <li>Consumption is finite, are the limits physical, psychological, or social?</li>
+            <li>To share an idea, in the moment, requires a limit on words.</li>
+            <li>A slow charge reduces utility, reduced utility slows losing-charge.</li>
+            <li>The more we communicate, the faster we communicate, the greater the distance between each other.</li>
+          </ul>
+        </p>
+
+        <h2 class="text-pink-500 text-5xl mt-5">INTERPRETATION</h2>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        Now we're going to put our User-Mobile Phone FractalVersing ontology to use. This is the interpretation part of the Formation-Interpretation flow.
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">BUILDING AN APP</h3>
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+        Imagine we're building a mobile app and want to use FractalVersing to guide our design.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          Let's say we want to create a new app called Kleek, which is a social app that does just one thing - lets you connect with others. No messages, no pictures, no tweets. You're connected or you're not - you're in the group, or you're outside of the group. You send a connection request, if it is accepted, you're part of the group. If not, your unsuccessful request is shown to the group and all other users. 
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          To use FractalVersing we're going to take each one of the verses, and think about how it applies to our app idea. This is similar to the process of interpretation in divination techniques such as Tarot or I Ching. There is nothing mystical about this though, we are simply using FractalVersing to offer a perspective to help us better understand.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-left italic font-bold">
+          When we connect, we become ourselves through becoming each other.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          As establishing a connection with some people and not with others is the sole purpose of this application, we are explicitly creating a sense of who we are by the people we choose to connect with compared to those we do not connect with.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-left italic font-bold">
+          Entertaining, a distraction or well-deserved rest?
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          While there is certainly entertainment to be gained from trying to create connections with certain people (a new friend, a crush etc.) this is very unlikely to create a sense of rest. If anything, whether you are validated by someone else or not seems likely to induce a lot of unnecessary stress.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-left italic font-bold">
+          When we socialise, we inform a shared experience.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          The definition of 'socialise' here is by definition very limited. All of the information, the social context, is encapsulated in the binary assessment of whether a connection was successful or not. This certainly would create a shared experience (gossip in the playground or office the next day), no further value would be created.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-left italic font-bold">
+          Consumption is finite, are the limits physical, psychological, or social?
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          The consumption of the app is probably correlated with the dynamics of the real-world social networks. Is there any point checking the app daily, unless social groups change daily? The app and social network operates at the same human and temporal scale.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-left italic font-bold">
+          To share an idea, in the moment, requires a limit on words.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          The app takes this verse to the extreme. There are no words, simply an event - connected or rejected.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-left italic font-bold">
+          A slow charge reduces utility, reduced utility slows losing-charge.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          This app probably wouldn't have much of an impact on power consumption, compared to say video calls or streaming, so this is unlikely to have a negative impact on usage.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-left italic font-bold">
+          The more we communicate, the faster we communicate, the greater the distance between each other.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          What does it mean to be connected to a thousand people on Facebook? Does it really make our social lives better. Do we live richer lives as a result? Do we have better quality friendships? If the downside of social media is that it creates superficial connections, then something digital that is rooted in real world social networks could potentially enrichen those physical connections.
+        </p>
+
+        <h3 class="text-pink-500 text-2xl mt-5">CONCLUSION</h3>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          Thinking about our interpretations through FractalVersing, we can conclude that practically speaking, would the app be more than a brief fad if there is no fundamental value that creates stickiness? The whole point of digital social networks is that they allow us to do in the virtual space what is impossible in the physical space; connect with thousands of people across the globe, instantaneously and continuously. 
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          If it wasn't already obvious from the description of the app idea, there are also ethical implications to consider. What shared experience are we really creating here? It seems that this app might not be a great thing for society.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          Finally, perhaps we could explore an alternative approach that is rooted in and strengthens our physical networks. What seems to be a flaw in the design of Kleek could be an opportunity to step away from traditional social networks and create something that bridges the gap between the digital and the physical.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          While a traditional ontology could have helped us think about the system and architectural design of the application, FractalVersing has given us a much broader perspective from practical value to ethical implications.
+        </p>
+
+        <p class="text-lg text-stone-900 mt-5 text-justify">
+          We'll leave it as an exercise for the reader to re-interpret the FractalVersing ontology in light of this app example and change it in response.
+        </p>
+
+        <h2 class="text-pink-500 text-5xl mt-5">WHAT NEXT?</h2>
+        <p class="text-lg text-stone-900 mt-5 text-left">
+          <ul class="text-lg list-disc list-inside">
+            <li>Have a go at FractalVersing for yourself.</li>
+            <li>Create some ontologies by yourself.</li>
+            <li>Create some collaboratively.</li>
+            <li>Share them with people.</li>
+            <li>Use them, use those created by others.</li>
+          </ul>
+        </p>
+        <hr class="mt-5 border-pink-500"/>
+
+        <p class="text-base text-gray-500 mt-5">
+        FractalVersing was created by <a href="https://www.linkedin.com/in/zeroxten/" class="text-stone-500 underline">Fraser Scott.
+        </p>
+        
+      </div>        
+    </main>
+  </body>
 </html>
